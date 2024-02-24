@@ -132,7 +132,7 @@
 }
 
 .projects .navi {
-    background-color: lightgray;
+    background-color: #e2e8f0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
@@ -151,12 +151,16 @@
     border-radius: 0;
 }
 
+.projects .navi .navitab .nav-link.active {
+    border-bottom: .25rem solid #754ffe;
+}
+
 .projects .navi .navitab .nav-link:hover {
     border-bottom: .25rem solid #754ffe;
 }
 
 .projects .courses .card{
-    border: .025rem solid lightgray;
+    border: .025rem solid #e2e8f0;
     margin-bottom: 1.5rem;
 }
 
@@ -217,7 +221,7 @@
 
 /* Large devices (desktops, 992px and lower) */
 @media (max-width: 992px) { 
-    
+
 }
 
 /* X-Large devices (large desktops, 1200px and lower) */
@@ -231,8 +235,12 @@
 
 /* cta section starts */
 .cta {
-    /* padding: 3rem 0; */
+    padding: 5rem 0;
+}
+
+.cta .container {
     background-color: #754ffe;
+    border-radius: .75rem;
 }
 
 .cta .instructor {
@@ -242,6 +250,7 @@
 
 .cta .instructor img {
     width: 60%;
+    margin-top: -3rem;
 }
 
 .cta .text {
