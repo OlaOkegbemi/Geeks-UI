@@ -5,6 +5,7 @@
 
 .hero .title {
     padding-right: 8rem;
+    margin-bottom: 2rem;
 }
 
 .hero .verdict {
@@ -48,6 +49,18 @@
     display: block;
     margin: 0 auto;
 }
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+    .hero  {
+        padding: 3rem 0;
+    }
+
+    .hero .title {
+        padding-right: 0rem;
+    }
+}
+
 /* hero section ends */
 
 /* stats section starts */
@@ -80,6 +93,23 @@
     font-weight: 600;
     margin-bottom: .25rem;
 }
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    .stats {
+        padding: 1rem 0;
+    }
+
+    .stats .numbers {
+        padding: 1rem;
+    }
+
+    .stats .numbers .num {
+        font-size: 1.25rem;
+    }
+}
+
+
 /* stats section ends */
 
 /* projects section starts */
@@ -174,4 +204,96 @@
     box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, .1);
 }
 
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    
+}
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }
+
+
 /* projects section ends */
+
+/* cta section starts */
+.cta {
+    /* padding: 3rem 0; */
+    background-color: #754ffe;
+}
+
+.cta .instructor {
+    text-align: center;
+    position: relative;
+}
+
+.cta .instructor img {
+    width: 60%;
+}
+
+.cta .text {
+    color: white;
+} 
+
+.cta .text .title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.cta .text .desc {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cta .text .start {
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #000;
+    font-weight: 600;
+    font-size: .9rem;
+}
+/* cta section ends */
+
+
+.testimonials {
+    padding: 3rem 0;
+    background-color: #e2e8f0;
+}
+
+.testimonials .comment .navi {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.testimonials .comment .prev, .testimonials .comment .next {
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: none;
+    padding: .65rem 1rem;
+    background-color: #fff;
+}
+
+.testimonials .comment .prev:hover, .testimonials .comment .next:hover {
+    background-color: #754ffe;
+    color: #fff;
+}
+
+.testimonials .comment .prev { 
+    margin-right: 1rem;
+}
+
+
