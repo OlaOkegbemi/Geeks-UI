@@ -137,10 +137,6 @@
     margin-bottom: 2rem;
 }
 
-.projects .navi .navitab {
-    /* padding: .5rem; */
-}
-
 .projects .navi .navitab .nav-link {
     background-color: transparent;
     border: .25rem solid transparent;
